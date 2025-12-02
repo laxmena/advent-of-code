@@ -10,8 +10,7 @@ def solve():
             direction = step[0]
             distance = int(step[1:])
             
-            sign = 1
-                
+            # naive approach.. why not?
             while distance > 0:
                 if direction == 'L':
                     current_position -= 1
